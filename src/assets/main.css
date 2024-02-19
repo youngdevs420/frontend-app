@@ -91,7 +91,9 @@ strong {
 
 .signup-form form .form-group input,
 .dashbord-body .form-card
-.form input{
+.form input,
+.dashbord-body .form-card
+.form select{
     font-size: 14px;
     font-weight: 400;
     color: var(--black-light);

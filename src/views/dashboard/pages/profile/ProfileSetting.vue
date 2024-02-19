@@ -2,7 +2,7 @@
 import DashboardSidebar from '../../../../components/DashboardSidebar.vue'
 import DashboardHeader from '../../../../components/DashboardHeader.vue';
 import FormHeader from './components/FormHeader.vue'
-import FormBody1 from './components/FormBody1.vue'
+import FormBody2 from './components/FormBody2.vue'
 </script>
 
 <template>
@@ -19,7 +19,7 @@ import FormBody1 from './components/FormBody1.vue'
                 <div class="form-card card border-0 p-3 mx-4 my-5">
                     <div class="form p-3">
                         <FormHeader />
-                        <FormBody1 />
+                        <FormBody2 />
                     </div>
                 </div>
                 <!-- Form Card Ends -->

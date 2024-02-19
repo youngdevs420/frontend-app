@@ -7,6 +7,7 @@ import ThirdStep from '../views/pages/auth/singup/ThirdStep.vue'
 
 // Dashboard Pages Imports
 import Profile from '../views/dashboard/pages/profile/Profile.vue'
+import ProfileSetting from '../views/dashboard/pages/profile/ProfileSetting.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -37,6 +38,11 @@ const router = createRouter({
       path: '/profile',
       name: 'profile',
       component: Profile
+    },
+    {
+      path: '/profile/setting',
+      name: 'profilesetting',
+      component: ProfileSetting
     },
 
   ]
