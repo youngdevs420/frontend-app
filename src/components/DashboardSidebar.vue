@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+    import { RouterLink, RouterView } from 'vue-router'
+</script>
 
 <template>
     <nav class="dashboard-sidebar">
@@ -12,13 +14,13 @@
             <div class="sidebar-links mt-3 px-3">
                 <ul class="nav">
                     <div class="active-tab"></div>
-                    <li class="tooltip-element nav-item" data-tooltip="1">
-                        <a href="#" data-active="1" class="nav-link active">
+                    <li class="tooltip-element nav-item" data-tooltip="0">
+                        <RouterLink to="/dashboard" data-active="0" class="nav-link active">
                             <div class="icon">
                                 <img src="../assets/icons/dashboard.png" alt="">
                             </div>
                             <span class="link hide">Dashboard</span>
-                        </a>
+                        </RouterLink>
                     </li>
                     <li class="tooltip-element nav-item" data-tooltip="1">
                         <a href="#" data-active="1" class="nav-link">
@@ -36,88 +38,88 @@
                             <span class="link hide">Receipt Log</span>
                         </a>
                     </li>
-                    <li class="tooltip-element nav-item" data-tooltip="2">
-                        <a href="#" data-active="2" class="nav-link">
+                    <li class="tooltip-element nav-item" data-tooltip="3">
+                        <a href="#" data-active="3" class="nav-link">
                             <div class="icon">
                                 <img src="../assets/icons/payment.png" alt="">
                             </div>
                             <span class="link hide">Collect Payment</span>
                         </a>
                     </li>
-                    <li class="tooltip-element nav-item" data-tooltip="2">
-                        <a href="#" data-active="2" class="nav-link">
+                    <li class="tooltip-element nav-item" data-tooltip="4">
+                        <RouterLink to="/renewals" data-active="4" class="nav-link">
                             <div class="icon">
                                 <img src="../assets/icons/reload.png" alt="">
                             </div>
                             <span class="link hide">Renewals</span>
-                        </a>
+                        </RouterLink>
                     </li>
-                    <li class="tooltip-element nav-item" data-tooltip="2">
-                        <a href="#" data-active="2" class="nav-link">
+                    <li class="tooltip-element nav-item" data-tooltip="5">
+                        <a href="#" data-active="5" class="nav-link">
                             <div class="icon">
                                 <img src="../assets/icons/calendar.png" alt="">
                             </div>
                             <span class="link hide">Calendar</span>
                         </a>
                     </li>
-                    <li class="tooltip-element nav-item" data-tooltip="2">
-                        <a href="#" data-active="2" class="nav-link">
+                    <li class="tooltip-element nav-item" data-tooltip="6">
+                        <a href="#" data-active="6" class="nav-link">
                             <div class="icon">
                                 <img src="../assets/icons/quote.png" alt="">
                             </div>
                             <span class="link hide">Quick Quote</span>
                         </a>
                     </li>
-                    <li class="tooltip-element nav-item" data-tooltip="2">
-                        <a href="#" data-active="2" class="nav-link">
+                    <li class="tooltip-element nav-item" data-tooltip="7">
+                        <a href="#" data-active="7" class="nav-link">
                             <div class="icon">
                                 <img src="../assets/icons/gusto.png" alt="">
                             </div>
                             <span class="link hide">Gusto</span>
                         </a>
                     </li>
-                    <li class="tooltip-element nav-item" data-tooltip="2">
-                        <a href="#" data-active="2" class="nav-link">
+                    <li class="tooltip-element nav-item" data-tooltip="8">
+                        <a href="#" data-active="8" class="nav-link">
                             <div class="icon">
                                 <img src="../assets/icons/mail.png" alt="">
                             </div>
                             <span class="link hide">MailChimp</span>
                         </a>
                     </li>
-                    <li class="tooltip-element nav-item" data-tooltip="2">
-                        <a href="#" data-active="2" class="nav-link">
+                    <li class="tooltip-element nav-item" data-tooltip="9">
+                        <a href="#" data-active="9" class="nav-link">
                             <div class="icon">
                                 <img src="../assets/icons/history.png" alt="">
                             </div>
                             <span class="link hide">BF History</span>
                         </a>
                     </li>
-                    <li class="tooltip-element nav-item" data-tooltip="2">
-                        <a href="#" data-active="2" class="nav-link">
+                    <li class="tooltip-element nav-item" data-tooltip="10">
+                        <a href="#" data-active="10" class="nav-link">
                             <div class="icon">
                                 <img src="../assets/icons/fee.png" alt="">
                             </div>
                             <span class="link hide">CC Fee History</span>
                         </a>
                     </li>
-                    <li class="tooltip-element nav-item" data-tooltip="2">
-                        <a href="#" data-active="2" class="nav-link">
+                    <li class="tooltip-element nav-item" data-tooltip="11">
+                        <a href="#" data-active="11" class="nav-link">
                             <div class="icon">
                                 <img src="../assets/icons/care.png" alt="">
                             </div>
                             <span class="link hide">Insurance Carriers</span>
                         </a>
                     </li>
-                    <li class="tooltip-element nav-item" data-tooltip="2">
-                        <a href="#" data-active="2" class="nav-link">
+                    <li class="tooltip-element nav-item" data-tooltip="13">
+                        <a href="#" data-active="13" class="nav-link">
                             <div class="icon">
                                 <img src="../assets/icons/team.png" alt="">
                             </div>
                             <span class="link hide">TOI Team</span>
                         </a>
                     </li>
-                    <li class="tooltip-element nav-item" data-tooltip="2">
-                        <a href="#" data-active="2" class="nav-link">
+                    <li class="tooltip-element nav-item" data-tooltip="14">
+                        <a href="#" data-active="14" class="nav-link">
                             <div class="icon">
                                 <img src="../assets/icons/doc.png" alt="">
                             </div>
@@ -126,6 +128,7 @@
                     </li>
                     
                 </ul>
+                <RouterView />
             </div>
         </div>
     </nav>

@@ -6,6 +6,7 @@ import SecondStep from '../views/pages/auth/singup/SecondStep.vue'
 import ThirdStep from '../views/pages/auth/singup/ThirdStep.vue'
 
 // Dashboard Pages Imports
+import Renewals from '../views/dashboard/pages/renewals/Renewals.vue'
 import Profile from '../views/dashboard/pages/profile/Profile.vue'
 import ProfileSetting from '../views/dashboard/pages/profile/ProfileSetting.vue'
 
@@ -34,6 +35,11 @@ const router = createRouter({
     },
 
     // dashboard routes
+    {
+      path: '/renewals',
+      name: 'renewals',
+      component: Renewals
+    },
     {
       path: '/profile',
       name: 'profile',

@@ -10,6 +10,9 @@
     --blue: #3196E3;
     --blue-light: #F1F8FD;
     --black-light: #667085;
+    --light-green: #EBF9F1;
+    --light-red: #FEEBEB;
+
 
 
     /* FONT SIZES */
@@ -79,8 +82,7 @@ strong {
 }
 
 .signup-form form .form-group label,
-.dashbord-body .form-card
-.form label{
+.dashbord-body .form-card .form label {
 
     /* font-family: Plus Jakarta Sans; */
     font-size: var(--font-16);
@@ -90,10 +92,8 @@ strong {
 }
 
 .signup-form form .form-group input,
-.dashbord-body .form-card
-.form input,
-.dashbord-body .form-card
-.form select{
+.dashbord-body .form-card .form input,
+.dashbord-body .form-card .form select {
     font-size: 14px;
     font-weight: 400;
     color: var(--black-light);
@@ -140,6 +140,7 @@ strong {
 
 /* ################## UTILITIES CLASSES ##################*/
 
+
 /* BUTTONS */
 
 .btn-blue {
@@ -150,6 +151,16 @@ strong {
     font-size: var(--font-16);
     border: 1px solid var(--blue);
     Padding: 10px 20px 10px 20px;
+}
+
+.btn-blue-sm {
+    border-radius: 8px;
+    color: var(--white);
+    text-decoration: none;
+    background: var(--blue);
+    font-size: var(--font-16);
+    border: 1px solid var(--blue);
+    Padding: 6px 14px 6px 14px;
 }
 
 .btn-blue-d {
@@ -220,6 +231,13 @@ strong {
 
 /* CARDS */
 
+.table-card {
+    min-height: 200px;
+    border-radius: 24px;
+    background-color: var(--white) !important;
+    box-shadow: 0px 4px 30px 0px #4D546408;
+}
+
 .signup-card {
     min-height: 90vh;
     border-radius: 24px;
@@ -228,6 +246,40 @@ strong {
 }
 
 /* BACKGROUNDS */
+
+/* BADGES */
+.green-badge {
+    padding: 4px 10px 4px 10px;
+    border-radius: 8px;
+    background: var(--light-green);
+
+}
+
+.red-badge {
+    padding: 4px 10px 4px 10px;
+    border-radius: 8px;
+    background: var(--light-red);
+
+}
+
+/* TABLES */
+
+.dashboard-layout table thead {
+    border-radius: 10px !important;
+}
+
+.dashboard-layout table thead th {
+    font-size: 14px !important;
+    font-weight: 500;
+    letter-spacing: 0em;
+    background: linear-gradient(0deg, #ECF0F5, #ECF0F5),
+        linear-gradient(0deg, #FAFAFB, #FAFAFB);
+}
+
+.dashboard-layout table tbody tr td {
+
+    font-size: 13px;
+}
 
 .bg-light-blue {
     background-color: var(--blue-light);
