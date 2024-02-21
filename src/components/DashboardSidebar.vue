@@ -23,12 +23,12 @@
                         </RouterLink>
                     </li>
                     <li class="tooltip-element nav-item" data-tooltip="1">
-                        <a href="#" data-active="1" class="nav-link">
+                        <RouterLink to="/insureds" data-active="1" class="nav-link">
                             <div class="icon">
                                 <img src="../assets/icons/user.png" alt="">
                             </div>
                             <span class="link hide">Insureds</span>
-                        </a>
+                        </RouterLink>
                     </li>
                     <li class="tooltip-element nav-item" data-tooltip="2">
                         <RouterLink to="receiptlog" data-active="2" class="nav-link">

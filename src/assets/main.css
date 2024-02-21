@@ -10,6 +10,8 @@
     --red : #EC3131;
     --green : #29884E;
     --blue: #3196E3;
+    --dark : #202020;
+    --orange: #FC9532;
     --blue-light: #F1F8FD;
     --black-light: #667085;
     --light-green: #EBF9F1;
@@ -182,6 +184,45 @@ strong {
     border: 1px solid #66708526;
     background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
         linear-gradient(0deg, rgba(102, 112, 133, 0.15), rgba(102, 112, 133, 0.15));
+}
+
+.outline-greed-btn {
+    outline: none;
+    border-radius: 6px;
+    color: var(--green);
+    Padding: 6px 14px 6px 14px;
+    background-color: var(--white);
+    border: 1px solid var(--green);
+}
+.outline-greed-btn:hover {
+    color: var(--white);
+    background-color: var(--green);
+}
+
+.outline-orange-btn {
+    outline: none;
+    border-radius: 6px;
+    color: var(--orange);
+    Padding: 6px 14px 6px 14px;
+    background-color: var(--white);
+    border: 1px solid var(--orange);
+}
+.outline-orange-btn:hover {
+    color: var(--white);
+    background-color: var(--orange);
+}
+
+.outline-dark-btn {
+    outline: none;
+    border-radius: 6px;
+    color: var(--dark);
+    Padding: 6px 14px 6px 14px;
+    background-color: var(--white);
+    border: 1px solid var(--dark);
+}
+.outline-dark-btn:hover {
+    color: var(--white);
+    background-color: var(--dark);
 }
 
 .cross-btn {
