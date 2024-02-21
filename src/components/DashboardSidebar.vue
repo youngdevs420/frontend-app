@@ -31,12 +31,12 @@
                         </a>
                     </li>
                     <li class="tooltip-element nav-item" data-tooltip="2">
-                        <a href="#" data-active="2" class="nav-link">
+                        <RouterLink to="receiptlog" data-active="2" class="nav-link">
                             <div class="icon">
                                 <img src="../assets/icons/log.png" alt="">
                             </div>
                             <span class="link hide">Receipt Log</span>
-                        </a>
+                        </RouterLink>
                     </li>
                     <li class="tooltip-element nav-item" data-tooltip="3">
                         <a href="#" data-active="3" class="nav-link">
@@ -136,9 +136,6 @@
 
 <style scoped>
 .dashboard-sidebar {
-    position: sticky !important;
-    top: 0;
-    left: 0;
     min-height: 100vh;
     background-color: #fff;
     width: 300px;
@@ -147,14 +144,6 @@
     transition: width 0.5s ease-in-out;
 }
 
-.dashboard-sidebar::before {
-    content: "";
-    position: absolute;
-    width: 2rem;
-    height: 100%;
-    top: 0;
-    left: 100%;
-}
 
 
 

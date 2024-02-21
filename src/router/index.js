@@ -9,6 +9,7 @@ import ThirdStep from '../views/pages/auth/singup/ThirdStep.vue'
 import Renewals from '../views/dashboard/pages/renewals/Renewals.vue'
 import Profile from '../views/dashboard/pages/profile/Profile.vue'
 import ProfileSetting from '../views/dashboard/pages/profile/ProfileSetting.vue'
+import ReceiptLog from '../views/dashboard/pages/receiptLog/ReceiptLog.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -35,6 +36,11 @@ const router = createRouter({
     },
 
     // dashboard routes
+    {
+      path: '/receiptlog',
+      name: 'receiptlog',
+      component: ReceiptLog
+    },
     {
       path: '/renewals',
       name: 'renewals',

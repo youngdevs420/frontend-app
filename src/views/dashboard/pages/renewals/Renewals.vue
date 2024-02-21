@@ -1,6 +1,6 @@
 <script setup>
-import DashboardSidebar from '../../../../components/DashboardSidebar.vue'
-import DashboardHeader from '../../../../components/DashboardHeader.vue';
+import DashboardSidebar from '@/components/DashboardSidebar.vue'
+import DashboardHeader from '@/components/DashboardHeader.vue';
 </script>
 
 <template>
@@ -71,7 +71,7 @@ import DashboardHeader from '../../../../components/DashboardHeader.vue';
                                 </thead>
                                 <tbody>
                                     <tr v-for="(item, index) in 5" :key="index">
-                                        <td>06 Dec 2023</td>
+                                        <td>Dec 06, 2023</td>
                                         <td>
                                             <a href="" class="text-decoration-none">ABC Trucking LLC</a>
                                         </td>
