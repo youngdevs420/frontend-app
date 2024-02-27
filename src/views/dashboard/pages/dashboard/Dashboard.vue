@@ -118,7 +118,7 @@ import CreditFeeCard from './components/CreditFeeCard.vue';
 }
 
 .fillter-cards {
-    margin-top: 10rem;
+    margin-top: 35rem;
 }
 
 .range-card .card {
