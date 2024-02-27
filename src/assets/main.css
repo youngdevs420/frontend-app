@@ -288,6 +288,12 @@ strong {
 
 /* BACKGROUNDS */
 
+/* BORDERS */
+
+.border-gray1 {
+    border: 1px solid var(--light-red);
+}
+
 /* BADGES */
 .green-badge {
     border-radius: 8px;
@@ -363,6 +369,56 @@ strong {
     align-items: center;
     justify-content: center;
 }
+/* BADGES */
+.badge-c-secondary {
+    border-radius: 8px;
+    color: var(--white);
+    background: #C7D0D8;
+    padding: 4px 10px 4px 10px;
+}
+
+.badge-c-warn {
+    border-radius: 8px;
+    color: var(--white);
+    background: #FFD365;
+    padding: 4px 10px 4px 10px;
+}
+
+.badge-c-danger {
+    border-radius: 8px;
+    color: var(--white);
+    background: #EDA691;
+    padding: 4px 10px 4px 10px;
+}
+
+.badge-c-blue {
+    border-radius: 8px;
+    color: var(--white);
+    background: #1458D0;
+    padding: 4px 10px 4px 10px;
+}
+
+.badge-c-purl {
+    border-radius: 8px;
+    color: var(--white);
+    background: #6140AC;
+    padding: 4px 10px 4px 10px;
+}
+
+.badge-c-green {
+    border-radius: 8px;
+    color: var(--white);
+    background: #1DB72A;
+    padding: 4px 10px 4px 10px;
+}
+
+.badge-c-black {
+    border-radius: 8px;
+    color: var(--white);
+    background: var(--black);
+    padding: 4px 10px 4px 10px;
+}
+
 
 /* OTHERS */
 
