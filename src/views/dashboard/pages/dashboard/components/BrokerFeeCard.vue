@@ -59,6 +59,33 @@
                             </td>
                         </tr>
                         <tr>
+                            <td rowspan="1">Dec 10, 2023</td>
+                            <td><a href="" class="text-decoration-none">#2606</a></td>
+                            <td>ABC Trucking LLC</td>
+                            <td >
+                                <span>$700</span>
+                                <span class="text-muted ps-1">(30%)</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="1">Dec 10, 2023</td>
+                            <td><a href="" class="text-decoration-none">#2606</a></td>
+                            <td>ABC Trucking LLC</td>
+                            <td >
+                                <span>$700</span>
+                                <span class="text-muted ps-1">(30%)</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="1">Dec 10, 2023</td>
+                            <td><a href="" class="text-decoration-none">#2606</a></td>
+                            <td>ABC Trucking LLC</td>
+                            <td >
+                                <span>$700</span>
+                                <span class="text-muted ps-1">(30%)</span>
+                            </td>
+                        </tr>
+                        <tr>
                             <td class="single-td" colspan="4">
                                 <div class="d-flex align-items-center justify-content-between">
                                     <div class="d-flex align-items-center">

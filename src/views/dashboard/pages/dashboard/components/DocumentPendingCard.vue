@@ -4,8 +4,8 @@
     <div class="card p-3">
         <div class="c-card-header d-flex align-items-center justify-content-between text-light px-3 py-2">
             <div class="d-flex align-items-center">
-                <h5 class="py-0 my-0 pe-2">Balances Due</h5>
-                <img :src="'assets/media/icons/coins.png'" alt="icon">
+                <h5 class="py-0 my-0 pe-2">Documents Pending</h5>
+                <img :src="'assets/media/icons/notebook.png'" alt="icon">
             </div>
         </div>
         <div class="c-card-body">
@@ -16,8 +16,8 @@
                             <th>Receipt</th>
                             <th>Insured</th>
                             <th>Assigned</th>
-                            <th>Due Date</th>
-                            <th>Amount Due</th>
+                            <th>Invoice</th>
+                            <th>F.A Doc</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -32,9 +32,13 @@
                                     </div>
                                 </div>
                             </td>
-                            <td>Dec 10, 2023</td>
-                            <td>
-                                <span class="warn-badge">$1,000</span>
+                            <td class="text-center">
+                                <img :src="'assets/media/icons/pdf.png'" alt="icon">
+
+                            </td>
+                            <td class="text-center">
+                                <img :src="'assets/media/icons/pdf.png'" alt="icon">
+
                             </td>
                         </tr>
                         <tr>
@@ -48,9 +52,13 @@
                                     </div>
                                 </div>
                             </td>
-                            <td>Dec 10, 2023</td>
-                            <td>
-                                <span class="warn-badge">$1,000</span>
+                            <td class="text-center">
+                                <img :src="'assets/media/icons/pdf.png'" alt="icon">
+
+                            </td>
+                            <td class="text-center">
+                                <img :src="'assets/media/icons/pdf.png'" alt="icon">
+
                             </td>
                         </tr>
                         <tr>
@@ -64,9 +72,13 @@
                                     </div>
                                 </div>
                             </td>
-                            <td>Dec 10, 2023</td>
-                            <td>
-                                <span class="warn-badge">$1,000</span>
+                            <td class="text-center">
+                                <img :src="'assets/media/icons/pdf.png'" alt="icon">
+
+                            </td>
+                            <td class="text-center">
+                                <img :src="'assets/media/icons/pdf.png'" alt="icon">
+
                             </td>
                         </tr>
                         <tr>
@@ -80,15 +92,17 @@
                                     </div>
                                 </div>
                             </td>
-                            <td>Dec 10, 2023</td>
-                            <td>
-                                <span class="warn-badge">$1,000</span>
+                            <td class="text-center">
+
+
+                            </td>
+                            <td class="text-center">
+
                             </td>
                         </tr>
                         <tr>
                             <td><a href="" class="text-decoration-none">#2606</a></td>
                             <td>Esther Howard</td>
-                            
                             <td>
                                 <div class="d-flex align-items-center justify-content-between">
                                     <div class="d-flex align-items-center">
@@ -97,9 +111,13 @@
                                     </div>
                                 </div>
                             </td>
-                            <td>Dec 10, 2023</td>
-                            <td>
-                                <span class="warn-badge">$1,000</span>
+                            <td class="text-center">
+                                <img :src="'assets/media/icons/pdf.png'" alt="icon">
+
+                            </td>
+                            <td class="text-center">
+                                <img :src="'assets/media/icons/pdf.png'" alt="icon">
+
                             </td>
                         </tr>
                     </tbody>

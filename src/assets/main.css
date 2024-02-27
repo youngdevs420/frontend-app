@@ -12,6 +12,7 @@
     --blue: #3196E3;
     --dark : #202020;
     --orange: #FC9532;
+    --warn-light : #FFF6E7;
     --blue-light: #F1F8FD;
     --black-light: #667085;
     --light-green: #EBF9F1;
@@ -310,7 +311,13 @@ strong {
     background: var(--light-red);
 
 }
+.warn-badge {
+    border-radius: 8px;
+    color: var(--orange);
+    padding: 4px 10px 4px 10px;
+    background: var(--warn-light);
 
+}
 /* TABLES */
 
 .dashboard-layout table thead {
@@ -409,6 +416,19 @@ strong {
     border-radius: 8px;
     color: var(--white);
     background: #1DB72A;
+    padding: 4px 10px 4px 10px;
+}
+.badge-c-darkgreen {
+    border-radius: 8px;
+    color: var(--white);
+    background: #008000;
+    padding: 4px 10px 4px 10px;
+}
+
+.badge-c-bordered-darkgreen {
+    border-radius: 8px;
+    color: #008000;
+    border: 1px solid #008000;
     padding: 4px 10px 4px 10px;
 }
 
