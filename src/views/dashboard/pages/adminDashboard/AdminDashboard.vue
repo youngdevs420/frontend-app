@@ -4,6 +4,7 @@ import DashboardHeader from '@/components/DashboardHeader.vue';
 import PriceCards from './components/PriceCards.vue'
 import ChartCard from './components/ChartCard.vue'
 import ProfileCard from './components/ProfileCard.vue'
+import SalesAgentCard from './components/SalesAgentCard.vue'
 </script>
 
 <template>
@@ -34,8 +35,12 @@ import ProfileCard from './components/ProfileCard.vue'
                         </div>
 
                     </div>
-                    <div class="fillter-cards p-4">
-
+                    <div class="a-fillter-cards p-4">
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <SalesAgentCard />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -62,8 +67,8 @@ import ProfileCard from './components/ProfileCard.vue'
     border-radius: 10px;
 }
 
-.fillter-cards {
-    margin-top: 35rem;
+.a-fillter-cards {
+    margin-top: 23rem;
 }
 
 .range-card .card {
@@ -72,14 +77,14 @@ import ProfileCard from './components/ProfileCard.vue'
     box-shadow: 0px 4px 30px 0px #4D546408;
 }
 
-.fillter-cards .card {
+.a-fillter-cards .card {
     border-radius: 16px;
     background-color: #FFF;
     box-shadow: 0px 4px 30px 0px #4D546408;
     border: 1px #fff !important;
 }
 
-.fillter-cards .card .c-card-header {
+.a-fillter-cards .card .c-card-header {
     border-radius: 6px;
     background: #3196E3;
 }
@@ -87,5 +92,4 @@ import ProfileCard from './components/ProfileCard.vue'
 
 .dashboard-s-header .profile-card {
     border-radius: 12px;
-}
-</style>
+}</style>
