@@ -2,7 +2,7 @@
 
 <template>
     <div class="row">
-        <div class="col-xl-6">
+        <div class="col-xl-4">
             <div class="card border-0 d-flex flex-row align-items-center border-red py-2 px-3 price-card">
                 <div class="icon">
                     <img :src="'assets/media/icons/dollar.png'" height="50" width="50" alt="icon">
@@ -13,7 +13,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-xl-6">
+        <div class="col-xl-4">
             <div class="card border-0 d-flex flex-row align-items-center border-red py-2 px-3 price-card">
                 <div class="icon">
                     <img :src="'assets/media/icons/dollar.png'" height="50" width="50" alt="icon">

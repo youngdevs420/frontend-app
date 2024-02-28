@@ -6,6 +6,7 @@ import SecondStep from '../views/pages/auth/singup/SecondStep.vue'
 import ThirdStep from '../views/pages/auth/singup/ThirdStep.vue'
 
 // Dashboard Pages Imports
+import AdminDashboard from '../views/dashboard/pages/AdminDashboard/AdminDashboard.vue'
 import Dashboard from '../views/dashboard/pages/dashboard/Dashboard.vue'
 import Insureds from '../views/dashboard/pages/insureds/Insureds.vue'
 import Renewals from '../views/dashboard/pages/renewals/Renewals.vue'
@@ -38,6 +39,11 @@ const router = createRouter({
     },
 
     // dashboard routes
+    {
+      path: '/admindashboard',
+      name: 'admindashboard',
+      component: AdminDashboard
+    },
     {
       path: '/dashboard',
       name: 'dashboard',

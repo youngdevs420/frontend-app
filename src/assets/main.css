@@ -356,6 +356,14 @@ strong {
     color: var(--black-light);
 }
 
+.txt-black {
+    color: var(--black) !important;
+}
+
+.txt-blue {
+    color: var(--blue);
+}
+
 /* HEIGHTS */
 
 .h-45px {
