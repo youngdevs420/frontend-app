@@ -6,6 +6,7 @@ import ChartCard from './components/ChartCard.vue'
 import ProfileCard from './components/ProfileCard.vue'
 import SalesAgentCard from './components/SalesAgentCard.vue'
 import RenewWalsCard from './components/RenewalsCard.vue'
+import NewLeadsCard from './components/NewLeadsCard.vue';
 </script>
 
 <template>
@@ -43,6 +44,9 @@ import RenewWalsCard from './components/RenewalsCard.vue'
                             </div>
                             <div class="col-xl-6 mb-5">
                                 <RenewWalsCard />
+                            </div>
+                            <div class="col-xl-6 mb-5">
+                                <NewLeadsCard />
                             </div>
                         </div>
                     </div>
