@@ -353,7 +353,7 @@ strong {
 
 .txt-muted {
 
-    color: var(--black-light);
+    color: var(--black-light) !important;
 }
 
 .txt-black {
