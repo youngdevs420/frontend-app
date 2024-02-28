@@ -9,7 +9,7 @@
         // Calculate the adjusted minimum value for the y-axis
         const yAxisMin = Math.floor(minValue / 100000) * 100000;
 
-        var ctx = document.getElementById('barChart').getContext('2d');
+        var ctx = document.getElementById('barChart1').getContext('2d');
         var myChart = new Chart(ctx, {
             type: 'bar',
             data: {
@@ -70,7 +70,7 @@
         </div>
     </div>
     <div class="chart-body">
-        <canvas id="barChart" class="w-100"></canvas>
+        <canvas id="barChart1" class="w-100"></canvas>
     </div>
 </template>
 
