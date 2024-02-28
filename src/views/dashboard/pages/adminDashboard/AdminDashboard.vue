@@ -15,6 +15,7 @@ import PaymentsREquistedCard from './components/PaymentsREquistedCard.vue';
 import PaymentSentCard from './components/PaymentSentCard.vue';
 import PaymentTrackerCard from './components/PaymentTrackerCard.vue';
 import DebitCreditCard from './components/DebitCreditCard.vue';
+import CreditFeeCard from './components/CreditFeeCard.vue';
 
 </script>
 
@@ -80,6 +81,9 @@ import DebitCreditCard from './components/DebitCreditCard.vue';
                             </div>
                             <div class="col-xl-6 mb-5">
                                 <DebitCreditCard/>
+                            </div>
+                            <div class="col-xl-6 mb-5">
+                                <CreditFeeCard />
                             </div>
                         </div>
                     </div>
