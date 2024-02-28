@@ -45,32 +45,32 @@ import CreditFeeCard from './components/CreditFeeCard.vue';
                                     <RangeCard />
                                 </div>
                             </div>
-                            <div class="col-md-6 mb-3">
+                            <div class="col-md-6 mb-5">
                                 <div class="renewwals-card">
                                     <RenewalsCard />
                                 </div>
                             </div>
-                            <div class="col-md-6 mb-3">
+                            <div class="col-md-6 mb-5">
                                 <div class="newleads-card">
                                     <NewLeadsCard />
                                 </div>
                             </div>
-                            <div class="col-md-6 mb-3">
+                            <div class="col-md-6 mb-5">
                                 <div class="feecard-card">
                                     <BrokerFeeCard />
                                 </div>
                             </div>
-                            <div class="col-md-6 mb-3">
+                            <div class="col-md-6 mb-5">
                                 <div class="feecard-card">
                                     <BrokerFinanceCard />
                                 </div>
                             </div>
-                            <div class="col-md-6 mb-3">
+                            <div class="col-md-6 mb-5">
                                 <div class="feecard-card">
                                     <BalancesDueCard />
                                 </div>
                             </div>
-                            <div class="col-md-6 mb-3">
+                            <div class="col-md-6 mb-5">
                                 <div class="feecard-card">
                                     <DocumentPendingCard />
                                 </div>
@@ -80,12 +80,12 @@ import CreditFeeCard from './components/CreditFeeCard.vue';
                                     <PaymentsRequistedCard />
                                 </div>
                             </div>
-                            <div class="col-md-6 mb-3">
+                            <div class="col-md-6 mb-5">
                                 <div class="feecard-card">
                                     <DebitCreditCard />
                                 </div>
                             </div>
-                            <div class="col-md-6 mb-3">
+                            <div class="col-md-6 mb-5">
                                 <div class="feecard-card">
                                     <CreditFeeCard />
                                 </div>

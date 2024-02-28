@@ -5,6 +5,7 @@ import PriceCards from './components/PriceCards.vue'
 import ChartCard from './components/ChartCard.vue'
 import ProfileCard from './components/ProfileCard.vue'
 import SalesAgentCard from './components/SalesAgentCard.vue'
+import RenewWalsCard from './components/RenewalsCard.vue'
 </script>
 
 <template>
@@ -37,8 +38,11 @@ import SalesAgentCard from './components/SalesAgentCard.vue'
                     </div>
                     <div class="a-fillter-cards p-4">
                         <div class="row">
-                            <div class="col-xl-12">
+                            <div class="col-xl-12 mb-5">
                                 <SalesAgentCard />
+                            </div>
+                            <div class="col-xl-6 mb-5">
+                                <RenewWalsCard />
                             </div>
                         </div>
                     </div>
