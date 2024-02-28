@@ -7,6 +7,7 @@ import ProfileCard from './components/ProfileCard.vue'
 import SalesAgentCard from './components/SalesAgentCard.vue'
 import RenewWalsCard from './components/RenewalsCard.vue'
 import NewLeadsCard from './components/NewLeadsCard.vue';
+import BrokersFeeSplitCard from './components/BrokerFeeSplitCard.vue';
 </script>
 
 <template>
@@ -47,6 +48,9 @@ import NewLeadsCard from './components/NewLeadsCard.vue';
                             </div>
                             <div class="col-xl-6 mb-5">
                                 <NewLeadsCard />
+                            </div>
+                            <div class="col-xl-6 mb-5">
+                                <BrokersFeeSplitCard />
                             </div>
                         </div>
                     </div>
