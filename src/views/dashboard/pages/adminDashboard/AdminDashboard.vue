@@ -13,8 +13,7 @@ import BalancesDueCard from './components/BalancesDueCard.vue';
 import DocumentPendingCard from './components/DocumentPendingCard.vue';
 import PaymentsREquistedCard from './components/PaymentsREquistedCard.vue';
 import PaymentSentCard from './components/PaymentSentCard.vue';
-
-
+import PaymentTrackerCard from './components/PaymentTrackerCard.vue';
 
 </script>
 
@@ -74,6 +73,9 @@ import PaymentSentCard from './components/PaymentSentCard.vue';
                             </div>
                             <div class="col-xl-6 mb-5">
                                 <PaymentSentCard/>
+                            </div>
+                            <div class="col-xl-6 mb-5">
+                                <PaymentTrackerCard />
                             </div>
                         </div>
                     </div>

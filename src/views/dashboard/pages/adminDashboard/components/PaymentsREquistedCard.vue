@@ -178,7 +178,7 @@
 </template>
 
 
-<style>
+<style scoped>
 input[type="checkbox"] {
     /* appearance: none; */
     /* -webkit-appearance: none; */
