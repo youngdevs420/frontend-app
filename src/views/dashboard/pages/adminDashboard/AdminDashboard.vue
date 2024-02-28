@@ -11,6 +11,8 @@ import BrokersFeeSplitCard from './components/BrokerFeeSplitCard.vue';
 import BrokerFinanceCard from './components/BrokerFinanceCard.vue';
 import BalancesDueCard from './components/BalancesDueCard.vue';
 import DocumentPendingCard from './components/DocumentPendingCard.vue';
+import PaymentsREquistedCard from './components/PaymentsREquistedCard.vue';
+
 
 
 </script>
@@ -65,6 +67,9 @@ import DocumentPendingCard from './components/DocumentPendingCard.vue';
                             </div>
                             <div class="col-xl-6 mb-5">
                                 <DocumentPendingCard />
+                            </div>
+                            <div class="col-xl-12 mb-5">
+                                <PaymentsREquistedCard />
                             </div>
                         </div>
                     </div>
