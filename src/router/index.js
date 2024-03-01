@@ -9,6 +9,7 @@ import ThirdStep from '../views/pages/auth/singup/ThirdStep.vue'
 import AdminDashboard from '../views/dashboard/pages/AdminDashboard/AdminDashboard.vue'
 import Dashboard from '../views/dashboard/pages/dashboard/Dashboard.vue'
 import Insureds from '../views/dashboard/pages/insureds/Insureds.vue'
+import CreateInsured from '../views/dashboard/pages/insureds/CreateInsured.vue'
 import Renewals from '../views/dashboard/pages/renewals/Renewals.vue'
 import Profile from '../views/dashboard/pages/profile/Profile.vue'
 import ProfileSetting from '../views/dashboard/pages/profile/ProfileSetting.vue'
@@ -53,6 +54,11 @@ const router = createRouter({
       path: '/insureds',
       name: 'insureds',
       component: Insureds
+    },
+    {
+      path: '/createinsured',
+      name: 'createdinsured',
+      component: CreateInsured
     },
     {
       path: '/receiptlog',

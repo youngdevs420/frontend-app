@@ -17,10 +17,10 @@ import DashboardHeader from '@/components/DashboardHeader.vue';
                 <div class="renewals px-4 my-5">
                     <div class="header d-flex align-items-center justify-content-between">
                         <h4 class="">Insureds</h4>
-                        <button class="btn-blue-sm">
+                        <a href="/createinsured" class="btn-blue-sm">
                             <span class="pe-2">New Insured</span>
                             <i class="fa fa-plus"></i>
-                        </button>
+                        </a>
                     </div>
                     <div class="table-card border-0 card p-4 mt-4">
                         <div class="row align-items-center">
