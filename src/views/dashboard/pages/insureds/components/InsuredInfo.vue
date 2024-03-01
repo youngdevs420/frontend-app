@@ -415,6 +415,20 @@
                     </div>
                 </div>
             </div>
+
+            <div class="col-xl-">
+                <div class="buttons w-100 text-end mt-3">
+                    <button class="btn-blue-sm">
+                        <span class="pe-2">Save</span>
+                        <i class="fa fa-check"></i>
+                    </button>
+                    <button class=" btn-blue-sm bg-light text-dark ms-2 btn-s btn-light border-secondary">
+                        <span class="pe-2">Cancel</span>
+                        <span>X</span>
+                    </button>
+                </div>
+            </div>
+
         </div>
     </div>
 </template>
