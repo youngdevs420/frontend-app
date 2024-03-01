@@ -134,7 +134,7 @@
 
                 <div class="row mt-3">
                     <div class="col-xl-6">
-                        <div class="i-info-card py-3">
+                        <div class="i-info-card py-3 min-height">
                             <div class="ii-header text-center">
                                 <h5 class="px-3">Permits Information</h5>
                                 <hr>
@@ -173,6 +173,139 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-xl-6">
+                        <div class="i-info-card py-3">
+                            <div class="ii-header text-center">
+                                <h5 class="px-3">Coverages</h5>
+                                <hr>
+                            </div>
+                            <div class="ii-body px-3">
+                                <div class="row">
+                                    <div class="col-sm-6 form-group mb-3">
+                                        <label>General Liability</label>
+                                        <select class="form-control mt-2">
+                                            <option> Amount</option>
+                                            <option> 200</option>
+                                            <option> 300</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm-6 form-group mb-3">
+                                        <label>General Liability Carrier</label>
+                                        <select class="form-control mt-2">
+                                            <option> Carrier</option>
+                                            <option> 200</option>
+                                            <option> 300</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm-6 form-group mb-3">
+                                        <label>Auto Liability</label>
+                                        <select class="form-control mt-2">
+                                            <option> Amount</option>
+                                            <option> 200</option>
+                                            <option> 300</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm-6 form-group mb-3">
+                                        <label>Auto Liability Carrier</label>
+                                        <select class="form-control mt-2">
+                                            <option> Carrier</option>
+                                            <option> 200</option>
+                                            <option> 300</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm-6 form-group mb-3">
+                                        <label>Physical Damage</label>
+                                        <select class="form-control mt-2">
+                                            <option> Amount</option>
+                                            <option> 200</option>
+                                            <option> 300</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm-6 form-group mb-3">
+                                        <label>Physical Damage Carrier</label>
+                                        <select class="form-control mt-2">
+                                            <option> Carrier</option>
+                                            <option> 200</option>
+                                            <option> 300</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm-12 form-group mb-3">
+                                        <label>Physical Damage Deductible</label>
+                                        <select class="form-control mt-2">
+                                            <option> Amount</option>
+                                            <option> 200</option>
+                                            <option> 300</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm-6 form-group mb-3">
+                                        <label>Motor Truck Cargo</label>
+                                        <select class="form-control mt-2">
+                                            <option> Amount</option>
+                                            <option> 200</option>
+                                            <option> 300</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm-6 form-group mb-3">
+                                        <label>Motor Truck Cargo Carrier</label>
+                                        <select class="form-control mt-2">
+                                            <option> Carrier</option>
+                                            <option> 200</option>
+                                            <option> 300</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-sm-6 form-group mb-3">
+                                        <label>Motor Truck Cargo Deductible</label>
+                                        <select class="form-control mt-2">
+                                            <option> Amount</option>
+                                            <option> 200</option>
+                                            <option> 300</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-sm-6 form-group mb-3">
+                                        <label>Refrigeration?</label>
+                                        <div class="d-flex align-items-center">
+                                            <button class="btn-blue-sm w-100 mt-1">
+                                                <small>Yes</small>
+                                            </button>
+                                            <button class="btn btn-light border-secondary w-100 text-dark bg-white mt-1 ms-2">
+                                                <small>No</small>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-12 form-group mb-3">
+                                        <label>Uninsured/Underinsured Motorist</label>
+                                        <select class="form-control mt-2">
+                                            <option> Amount</option>
+                                            <option> 200</option>
+                                            <option> 300</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-sm-6 form-group mb-3">
+                                        <label>Trailer Interchange</label>
+                                        <select class="form-control mt-2">
+                                            <option> Amount</option>
+                                            <option> 200</option>
+                                            <option> 300</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-sm-6 form-group mb-3">
+                                        <label>Medical Pay</label>
+                                        <select class="form-control mt-2">
+                                            <option> Amount</option>
+                                            <option> 200</option>
+                                            <option> 300</option>
+                                        </select>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-xl-3">
@@ -192,10 +325,10 @@
                                     As a reminder, there’s issues that should be addressed in:
                                     Email Security
                                     Endpoint Security</small>
-                                    <ul>
-                                        <li><small>Email Security</small></li>
-                                        <li><small>Endpoint Security</small></li>
-                                    </ul>
+                                <ul>
+                                    <li><small>Email Security</small></li>
+                                    <li><small>Endpoint Security</small></li>
+                                </ul>
                             </div>
                         </div>
                         <div class="sent-msg my-3">
@@ -204,7 +337,7 @@
                                 <small>Run another risk assessment</small>
                             </div>
                             <p class="d-flex align-items-end justify-content-end mt-2">
-                                <small class="txt-muted">Robert  12/20/23  9:30AM </small>
+                                <small class="txt-muted">Robert 12/20/23 9:30AM </small>
                             </p>
                         </div>
                         <div class="r-msg-box card py-3 px-3">
@@ -229,7 +362,7 @@
                     </div>
                 </div>
 
-                <div class="i-chat-card card py-3 border-0 mt-3">
+                <div class="i-chat-card card py-3 border-0 mt-3 min-height">
                     <div class="ic-header text-center">
                         <h5 class="px-3">Important Notes</h5>
                         <hr>
@@ -245,10 +378,10 @@
                                     As a reminder, there’s issues that should be addressed in:
                                     Email Security
                                     Endpoint Security</small>
-                                    <ul>
-                                        <li><small>Email Security</small></li>
-                                        <li><small>Endpoint Security</small></li>
-                                    </ul>
+                                <ul>
+                                    <li><small>Email Security</small></li>
+                                    <li><small>Endpoint Security</small></li>
+                                </ul>
                             </div>
                         </div>
                         <div class="sent-msg my-3">
@@ -257,7 +390,7 @@
                                 <small>Run another risk assessment</small>
                             </div>
                             <p class="d-flex align-items-end justify-content-end mt-2">
-                                <small class="txt-muted">Robert  12/20/23  9:30AM </small>
+                                <small class="txt-muted">Robert 12/20/23 9:30AM </small>
                             </p>
                         </div>
                         <div class="r-msg-box card py-3 px-3">
@@ -298,6 +431,9 @@
     background: #F9FAFB;
 }
 
+.min-height {
+    min-height: 782px;
+}
 #sent-msg-form .card {
     display: flex !important;
     flex-direction: row !important;
