@@ -131,6 +131,49 @@
                         </form>
                     </div>
                 </div>
+
+                <div class="row mt-3">
+                    <div class="col-xl-6">
+                        <div class="i-info-card py-3">
+                            <div class="ii-header text-center">
+                                <h5 class="px-3">Permits Information</h5>
+                                <hr>
+                            </div>
+                            <div class="ii-body px-3">
+                                <div class="row">
+                                    <div class="col-sm-6 form-group mb-3">
+                                        <label>MC #</label>
+                                        <input type="text" class="form-control mt-2" value="MC #">
+                                    </div>
+                                    <div class="col-sm-6 form-group mb-3">
+                                        <label>CA #</label>
+                                        <input type="text" class="form-control mt-2" value="CA #">
+                                    </div>
+                                    <div class="col-sm-6 form-group mb-3">
+                                        <label>USDOT #</label>
+                                        <input type="text" class="form-control mt-2" value="USDOT #">
+                                    </div>
+                                    <div class="col-sm-6 form-group mb-3">
+                                        <label>USDOT PIN #</label>
+                                        <input type="text" class="form-control mt-2" value="USDOT PIN #">
+                                    </div>
+                                    <div class="col-sm-6 form-group mb-3">
+                                        <label>EIN</label>
+                                        <input type="text" class="form-control mt-2" value="EIN">
+                                    </div>
+                                    <div class="col-sm-6 form-group mb-3">
+                                        <label>Social Security Number</label>
+                                        <input type="text" class="form-control mt-2" value="SSN">
+                                    </div>
+                                    <div class="col-sm-12 form-group mb-3">
+                                        <label>DMV Requester Code</label>
+                                        <input type="text" class="form-control mt-2" value="Code">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="col-xl-3">
                 <div class="i-chat-card card py-3 border-0">
