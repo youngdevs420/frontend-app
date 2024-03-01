@@ -7,8 +7,8 @@
                 type="button" role="tab" aria-controls="pills-info" aria-selected="true">Information</button>
         </li>
         <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
-                type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Receipt Logs</button>
+            <button class="nav-link" id="pills-receiptlog-tab" data-bs-toggle="pill" data-bs-target="#pills-receiptlog"
+                type="button" role="tab" aria-controls="pills-receiptlog" aria-selected="false">Receipt Logs</button>
         </li>
         <li class="nav-item" role="presentation">
             <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
