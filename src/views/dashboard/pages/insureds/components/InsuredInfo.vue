@@ -134,8 +134,61 @@
             </div>
             <div class="col-xl-3">
                 <div class="i-chat-card card py-3 border-0">
-                    <div class="ic-header">
+                    <div class="ic-header text-center">
                         <h5 class="px-3">Conversation with Insured</h5>
+                        <hr>
+                    </div>
+                    <div class="ic-body px-3">
+                        <div class="r-msg-box card py-3 px-3">
+                            <div class="user d-flex align-items-center mb-3">
+                                <img :src="'/assets/media/users/u1.png'" height="30" width="30" alt="user">
+                                <small class="ps-2">Hey John!</small>
+                            </div>
+                            <div class="msg-info">
+                                <small>Hey John!
+                                    As a reminder, there’s issues that should be addressed in:
+                                    Email Security
+                                    Endpoint Security</small>
+                                    <ul>
+                                        <li><small>Email Security</small></li>
+                                        <li><small>Endpoint Security</small></li>
+                                    </ul>
+                            </div>
+                        </div>
+                        <div class="sent-msg my-3">
+                            <div class="card border-0 msg-box bg-blue ms-auto p-3">
+                                <img :src="'/assets/media/users/u2.png'" height="28" width="28" alt="user">
+                                <small>Run another risk assessment</small>
+                            </div>
+                            <p class="d-flex align-items-end justify-content-end mt-2">
+                                <small class="txt-muted">Robert  12/20/23  9:30AM </small>
+                            </p>
+                        </div>
+                        <div class="r-msg-box card py-3 px-3">
+                            <div class="user d-flex align-items-center mb-3">
+                                <img :src="'/assets/media/users/u1.png'" height="30" width="30" alt="user">
+                                <small class="ps-2">Hey John!</small>
+                            </div>
+                            <div class="msg-info">
+                                <small>How are you doing?</small>
+                            </div>
+                        </div>
+
+                        <form id="sent-msg-form" class="mt-3">
+                            <div class="form-group card pe-2 py-1">
+                                <input type="text" class="form-control w-75 border-0" placeholder="Type something...">
+                                <button class="btn-blue-sm py-0">
+                                    <img :src="'/assets/media/icons/send.png'" height="24" width="24" alt="user">
+
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="i-chat-card card py-3 border-0 mt-3">
+                    <div class="ic-header text-center">
+                        <h5 class="px-3">Important Notes</h5>
                         <hr>
                     </div>
                     <div class="ic-body px-3">
