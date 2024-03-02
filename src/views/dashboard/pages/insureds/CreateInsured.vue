@@ -5,6 +5,10 @@ import TabsHeader from './components/TabsHeader.vue';
 import InsuredInfo from './components/InsuredInfo.vue'
 import ReceiptLog from './components/ReceiptLog.vue';
 import vehicles from './components/vehicles.vue';
+import Drivers from './components/Drivers.vue';
+import Claims from './components/Claims.vue';
+
+
 </script>
 
 <template>
@@ -36,6 +40,14 @@ import vehicles from './components/vehicles.vue';
                             <div class="tab-pane fade" id="pills-vehicles" role="tabpanel"
                                 aria-labelledby="pills-vehicles-tab" tabindex="0">
                                 <vehicles />
+                            </div>
+                            <div class="tab-pane fade" id="pills-drivers" role="tabpanel"
+                                aria-labelledby="pills-drivers-tab" tabindex="0">
+                                <Drivers />
+                            </div>
+                            <div class="tab-pane fade" id="pills-claims" role="tabpanel"
+                                aria-labelledby="pills-claims-tab" tabindex="0">
+                                <Claims />
                             </div>
                         </div>
                     </div>

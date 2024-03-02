@@ -54,7 +54,6 @@
                             </td>
                             <td class="text-center">
                                 <img :src="'assets/media/icons/pdf.png'" alt="icon">
-
                             </td>
                             <td class="text-center">
                                 <img :src="'assets/media/icons/pdf.png'" alt="icon">

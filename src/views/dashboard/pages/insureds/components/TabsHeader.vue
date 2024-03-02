@@ -15,12 +15,12 @@
                 type="button" role="tab" aria-controls="pills-vehicles" aria-selected="false">Vehicles</button>
         </li>
         <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
-                type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Drivers</button>
+            <button class="nav-link" id="pills-drivers-tab" data-bs-toggle="pill" data-bs-target="#pills-drivers"
+                type="button" role="tab" aria-controls="pills-drivers" aria-selected="false">Drivers</button>
         </li>
         <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
-                type="button" role="tab" aria-controls="pills-contact" aria-selected="false"> Claims</button>
+            <button class="nav-link" id="pills-claims-tab" data-bs-toggle="pill" data-bs-target="#pills-claims"
+                type="button" role="tab" aria-controls="pills-claims" aria-selected="false"> Claims</button>
         </li>
         <li class="nav-item" role="presentation">
             <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
