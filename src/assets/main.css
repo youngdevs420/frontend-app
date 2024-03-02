@@ -486,3 +486,9 @@ strong {
         display: none;
     }
 }
+.blue-table-foot {
+    background-color: #3196E3;
+    color: #fff;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
