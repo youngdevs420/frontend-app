@@ -11,8 +11,8 @@
                 type="button" role="tab" aria-controls="pills-receiptlog" aria-selected="false">Receipt Logs</button>
         </li>
         <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
-                type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Vehicles</button>
+            <button class="nav-link" id="pills-vehicles-tab" data-bs-toggle="pill" data-bs-target="#pills-vehicles"
+                type="button" role="tab" aria-controls="pills-vehicles" aria-selected="false">Vehicles</button>
         </li>
         <li class="nav-item" role="presentation">
             <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
