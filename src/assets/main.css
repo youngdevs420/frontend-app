@@ -476,7 +476,38 @@ strong {
 .read-o {
     background-color: var(--white2);
 }
-
+.claims-tables {
+    border-radius: 16px;
+}
+.claims-upload-file {
+    border-radius: 16px;
+}
+.upload-card {
+    border-width: 0px, 0px, 0px, 0px;
+    border-style: solid;
+    border-color: #66708526;
+}
+.message {
+    background: #3196e3;
+    width: 321px;
+    padding: 10px;
+    border-radius: 8px;
+}
+.profile img {
+    width: 24px;
+    height: 24px;
+    border-radius: 30px;
+}
+.message-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+.msg-timeline {
+    font-size: 12px;
+    font-weight: 500;
+    color: #667085;
+}
 /* MEDIA QUERIES */
 
 @media (max-width: 769px) {
@@ -492,3 +523,4 @@ strong {
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
 }
+

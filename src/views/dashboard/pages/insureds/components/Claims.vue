@@ -1,8 +1,9 @@
 <script setup></script>
 
 <template>
-    <div class="border-0 card mt-4 bg-grey-100">
-        <div class="card-header">
+    <div class="border-0 card mt-4">
+        <div class="bg-grey-100 claims-tables">
+            <div class="card-header bg-grey-100">
             <h5>Loss Runs</h5>
         </div>
         <div class="card-body">
@@ -471,6 +472,51 @@
                 </div>
             </div>
         </div>
+        </div>
+
+        <div class="card bg-grey-100 border-0 mt-3 claims-upload-file">
+        <div class="card-header bg-grey-100 d-flex align-items-center justify-content-between">
+            <h5>Claims</h5>
+            <button class="btn btn-primary">Upload File <i class="fa fa-upload"></i></button>
+        </div>
+        <div class="card-body">
+            <div class="upload-card card text-center col-md-2 p-4 d-flex justify-content-center align-items-center mb-5">
+                <i class="fa fa-file fa-3x"></i>
+                <strong class="mt-2">Claim #12343.PDF</strong>
+            </div>
+        </div>
+        </div>
+
+        <div class="card bg-grey-100 border-0 mt-3 claims-upload-file">
+        <div class="card-header bg-grey-100 text-center">
+            <h6>General Notes</h6>
+        </div>
+        <div class="card-body">
+            <div class="chat-box">
+                <div class="recieve-messages">
+                    <div class="float-end">
+                        <div class="message d-flex align-items-center">
+                        <div class="profile">
+                            <img :src="'/src/assets/images/users/u1.png'" alt="profile">
+                        </div>
+                        <div class="message-text ms-2">
+                            Insured will be filing a claim next week.
+                        </div>
+                    </div>
+                    <div class="msg-timeline text-end mt-2">Robert  12/20/23  9:30AM </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer bg-grey-100 border-0 mt-5">
+            <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Type Something..." aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-primary" type="button" id="button-addon2">
+                <img :src="'/src/assets/icons/send.png'" alt="profile">
+            </button>
+            </div>
+        </div>
+        </div>
     </div>
 
 </template>
@@ -490,5 +536,7 @@ input {
     box-shadow: 0px 4px 30px 0px #4D546408;
     border: 1px #fff !important;
 }
-
+input {
+    background: white;
+}
 </style>

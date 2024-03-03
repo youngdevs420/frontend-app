@@ -23,8 +23,8 @@
                 type="button" role="tab" aria-controls="pills-claims" aria-selected="false"> Claims</button>
         </li>
         <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
-                type="button" role="tab" aria-controls="pills-contact" aria-selected="false">P Method</button>
+            <button class="nav-link" id="pills-method-tab" data-bs-toggle="pill" data-bs-target="#pills-method"
+                type="button" role="tab" aria-controls="pills-method" aria-selected="false">P Method</button>
         </li>
         <li class="nav-item" role="presentation">
             <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"

@@ -7,6 +7,7 @@ import ReceiptLog from './components/ReceiptLog.vue';
 import vehicles from './components/vehicles.vue';
 import Drivers from './components/Drivers.vue';
 import Claims from './components/Claims.vue';
+import Payment_method from './components/Payment_method.vue';
 
 
 </script>
@@ -48,6 +49,10 @@ import Claims from './components/Claims.vue';
                             <div class="tab-pane fade" id="pills-claims" role="tabpanel"
                                 aria-labelledby="pills-claims-tab" tabindex="0">
                                 <Claims />
+                            </div>
+                            <div class="tab-pane fade" id="pills-method" role="tabpanel"
+                                aria-labelledby="pills-method-tab" tabindex="0">
+                                <Payment_method />
                             </div>
                         </div>
                     </div>
