@@ -2,7 +2,7 @@
 
 <template>
     <div class="border-0 card mt-4">
-        <div class="account-info">
+        <div class="account-info"> 
             <div class="row">
                 <div class="col-lg-6 mb-3">
                     <div class="card border-0 bg-grey-100">
