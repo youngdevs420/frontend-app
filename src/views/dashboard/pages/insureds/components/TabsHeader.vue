@@ -27,8 +27,8 @@
                 type="button" role="tab" aria-controls="pills-method" aria-selected="false">P Method</button>
         </li>
         <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
-                type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Documents</button>
+            <button class="nav-link" id="pills-documents-tab" data-bs-toggle="pill" data-bs-target="#pills-documents"
+                type="button" role="tab" aria-controls="pills-documents" aria-selected="false">Documents</button>
         </li>
     </ul>
 </template>
